@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Bangkok Private Van by Mr. Ittikorn (TUMM)</title>
+  <meta name="description" content="Private van transfer & tours — Bangkok Private Van by Mr. Ittikorn (TUMM). Transfer 1,000 THB (Bangkok hotels ↔ Airports). Friendly Service with a Smile." />
+  <style>
+    :root{
+      --bg:#0b0b0b;
+      --panel:#0f0f0f;
+      --accent:#c59a2e; /* gold */
+      --muted:#bfbfbf;
+      --card:#121212;
+      --maxw:980px;
+      --radius:12px;
+      --gap:18px;
+      --text:#f5f5f5;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      font-family: "Poppins", "Segoe UI", Roboto, sans-serif;
+      background:linear-gradient(180deg,#060606,var(--bg));
+      color:var(--text);
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+      line-height:1.5;
+    }
+
+    header{
+      text-align:center;
+      padding:40px 20px;
+      border-bottom:1px solid rgba(255,255,255,0.03);
+    }
+    .logo{
+      display:inline-block;
+      background:linear-gradient(90deg,var(--panel),#0b0b0b);
+      padding:10px 18px;
+      border-radius:999px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.6), inset 0 -2px 6px rgba(255,255,255,0.02);
+      border:1px solid rgba(255,255,255,0.03);
+      margin-bottom:14px;
+    }
+    h1{
+      margin:6px 0 6px;
+      font-size:22px;
+      letter-spacing:0.6px;
+      color:var(--text);
+    }
+    .byline{color:var(--muted); font-size:14px; margin-bottom:8px}
+    .slogan{margin-top:10px;color:var(--accent); font-weight:600}
+
+    main{max-width:var(--maxw); margin:30px auto; padding:0 18px;}
+    .card{
+      background:var(--card);
+      border-radius:var(--radius);
+      padding:20px;
+      margin-bottom:18px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.6);
+      border:1px solid rgba(255,255,255,0.03);
+    }
+
+    .hero{
+      text-align:left;
+      padding:24px;
+      border-left:4px solid var(--accent);
+    }
+    .hero h2{margin:0 0 6px; color:var(--accent); font-size:18px}
+    .hero p{color:var(--muted); margin:0 0 8px}
+
+    .price {
+      display:inline-block;
+      background:linear-gradient(90deg, rgba(197,154,46,0.15), rgba(197,154,46,0.08));
+      color:var(--accent);
+      padding:10px 14px;
+      border-radius:999px;
+      font-weight:700;
+      border:1px solid rgba(197,154,46,0.12);
+      box-shadow: 0 6px 14px rgba(197,154,46,0.05);
+      margin-top:12px;
+    }
+
+    .section-title{
+      display:flex;
+      align-items:center;
+      gap:12px;
+      margin-bottom:12px;
+    }
+    .section-title h3{margin:0; color:var(--accent); font-size:16px}
+
+    .grid{
+      display:grid;
+      grid-template-columns:repeat(2,minmax(0,1fr));
+      gap:14px;
+    }
+    .spot{
+      background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      padding:12px;
+      border-radius:10px;
+      border:1px solid rgba(255,255,255,0.02);
+      color:var(--muted);
+      font-weight:600;
+      text-align:center;
+    }
+
+    .contact{
+      text-align:center;
+    }
+    .contact p{margin:6px 0; color:var(--muted)}
+    .contact .numbers{font-weight:700; color:var(--text); margin-bottom:10px}
+    .qr-row{
+      display:flex;
+      gap:14px;
+      justify-content:center;
+      flex-wrap:wrap;
+      margin-top:10px;
+    }
+    .qr{
+      width:220px;
+      max-width:46%;
+      background:#fff;
+      padding:12px;
+      border-radius:10px;
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      gap:10px;
+    }
+    .qr img{width:100%; height:auto; display:block; border-radius:6px}
+    .qr p{margin:0; color:#222; font-weight:600; font-size:13px}
+
+    footer{
+      text-align:center;
+      color:var(--muted);
+      font-size:13px;
+      padding:20px;
+      margin-top:6px;
+    }
+
+    /* responsive */
+    @media (max-width:720px){
+      .grid{grid-template-columns:repeat(1,1fr)}
+      .qr{max-width:100%; width:260px}
+      .hero{padding:18px}
+      header{padding:28px 12px}
+    }
+
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <strong style="color:var(--accent);font-size:15px">BANGKOK PRIVATE VAN</strong>
+      <div style="font-size:11px;color:var(--muted)">by Mr. Ittikorn (TUMM)</div>
+    </div>
+    <h1>Bangkok Private Van by Mr. Ittikorn (TUMM)</h1>
+    <div class="byline">Private van transfer & tours — สนามบิน/โรงแรม/เที่ยวไทย</div>
+    <div class="slogan">Friendly Service with a Smile 😊</div>
+  </header>
+
+  <main>
+    <!-- Primary selling point: Transfer -->
+    <section class="card hero" aria-labelledby="transfer-title">
+      <h2 id="transfer-title">Primary: Private Van Transfer — จุดขายหลัก (Transfer)</h2>
+      <p>Comfortable private transfers from hotels to airports and from airports to hotels inside Bangkok. Reliable drivers, punctual pick-up, and luggage-friendly service — perfect for airport transfers and hotel pick-ups.</p>
+
+      <div class="price">Transfer price: <span style="margin-left:8px">1,000 บาท <small style="color:var(--muted); font-weight:600">(จากโรงแรมในกรุงเทพฯ → สนามบิน และ สนามบิน → โรงแรมในกรุงเทพฯ)</small></span></div>
+
+      <div style="margin-top:14px; color:var(--muted)">We prioritize transfer bookings first. For tours, please request route & availability — no automatic pricing listed for tours.</div>
+    </section>
+
+    <!-- Tours (names only, no prices) -->
+    <section class="card" aria-labelledby="tours-title">
+      <div class="section-title">
+        <h3 id="tours-title">Tour / Popular Destinations — ทัวร์และสถานที่ยอดนิยม</h3>
+      </div>
+      <div class="grid" role="list">
+        <div class="spot">Grand Palace (วัดพระแก้ว)</div>
+        <div class="spot">Wat Pho (วัดโพธิ์)</div>
+        <div class="spot">Damnoen Saduak Floating Market (ตลาดน้ำดำเนินสะดวก)</div>
+        <div class="spot">Safari World</div>
+        <div class="spot">Pattaya</div>
+        <div class="spot">Khao Yai</div>
+        <div class="spot">Ayutthaya</div>
+        <div class="spot">Hua Hin</div>
+        <div class="spot">Kanchanaburi</div>
+        <div class="spot">Dream World</div>
+        <div class="spot">Siam Amazing Park (สวนสยาม)</div>
+      </div>
+
+      <p style="margin-top:12px;color:var(--muted)"><strong>Note / หมายเหตุ:</strong> Tours are listed for reference only — please send route details for a customized quotation. (สำหรับงานทัวร์ ไม่ได้ลงราคาไว้ — กรุณาระบุเส้นทางเพื่อให้เสนอราคา)</p>
+    </section>
+
+    <!-- Contact & Booking -->
+    <section class="card contact" aria-labelledby="contact-title">
+      <div class="section-title" style="justify-content:center">
+        <h3 id="contact-title">Contact & Booking — ติดต่อและจอง</h3>
+      </div>
+
+      <p class="numbers">WhatsApp: +66 98 286 3006 &nbsp;&nbsp; | &nbsp;&nbsp; Mobile: +66 64 336 6456</p>
+      <p style="color:var(--muted)">Email: itthikorn3479@gmail.com</p>
+      <p style="color:var(--muted); margin-top:8px">**ไม่มีปุ่มโทรอัตโนมัติตามคำขอ — เบอร์โชว์ให้ลูกค้าเห็นเพื่อจด/สแกน QR ได้เลย**</p>
+
+      <div class="qr-row" aria-hidden="false">
+        <div class="qr">
+          <img src="whatsapp_qr.png" alt="WhatsApp QR — Scan to chat" />
+          <p>WhatsApp QR — สแกนเพื่อจอง</p>
+        </div>
+
+        <div class="qr">
+          <img src="line_qr.png" alt="LINE QR — Scan to add" />
+          <p>LINE QR — สแกนเพื่อแอด</p>
+        </div>
+      </div>
+
+      <p style="margin-top:12px;color:var(--muted)">Scan a QR to start a chat and book quickly. (สแกนเพื่อพูดคุยและยืนยันการจองได้ทันที)</p>
+    </section>
+
+    <!-- Short FAQs / small notes -->
+    <section class="card" aria-labelledby="info-title" style="text-align:left;">
+      <div class="section-title">
+        <h3 id="info-title">Quick Info / ข้อมูลสั้น</h3>
+      </div>
+      <ul style="color:var(--muted); margin:0; padding-left:18px; line-height:1.7">
+        <li><strong>Primary service:</strong> Airport ↔ Hotel transfers in Bangkok (จุดขายหลัก: ส่งสนามบิน ↔ โรงแรม ในกรุงเทพฯ)</li>
+        <li><strong>Tour service:</strong> Available on request — list of destinations above (งานทัวร์เป็นงานรอง — แจ้งเส้นทางเพื่อเสนอราคา)</li>
+        <li><strong>No vehicle photos shown</strong> — brand first, discreet vehicle placement if needed later (ตามคำสั่งบอส: ไม่โชว์รูปรถ)</li>
+        <li><strong>Language:</strong> This page is bilingual (Thai & English)</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    © <span id="year"></span> Bangkok Private Van by Mr. Ittikorn (TUMM) — Direct booking, trusted transfer service.<br/>
+    Friendly Service with a Smile 😊
+  </footer>
+
+  <script>
+    // year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
